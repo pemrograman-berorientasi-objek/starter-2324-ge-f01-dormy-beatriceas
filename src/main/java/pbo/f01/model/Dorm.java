@@ -1,5 +1,4 @@
 package pbo.f01.model;
-import java.util.List;
 import java.util.Set;
 import javax.persistence.*;
 
@@ -70,9 +69,5 @@ public class Dorm<Assigning> {
     public String toString(){
         return DormName + "|" + Capacity + "|" + Gender;
     }
-
-    public List<Dorm> getStudents() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'getStudents'");
-    }  
+ 
 }
